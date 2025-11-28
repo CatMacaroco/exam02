@@ -32,9 +32,12 @@ int main(int ac, char **av)
 	if(ac >= 2)
 	{
 		i = 1;
-		capitalize(av[i]);
-		write(1, "\n", 1);
-		i++;
+		while(i < ac)
+		{
+			capitalize(av[i]);
+			write(1, "\n", 1);
+			i++;
+		}
 	}
 	write(1, "\n", 1);
 }
