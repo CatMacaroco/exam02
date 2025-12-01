@@ -40,7 +40,7 @@ int	ft_atoi_base(const char *str, int str_base)
 
 int main(void)
 {
-	const char str[] = "1019459ab";
+	const char str[] = "-1019459ab";
 	printf("%d", ft_atoi_base(str, 16));
 	return(0);
 }
