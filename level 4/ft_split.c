@@ -87,14 +87,10 @@ char    **ft_split(char *str)
     return(result); 
 }
 
-// int main(void)
-// {
-//     char str[]= "lkaka sjsj sjsj.";
-//     printf("%s", ft_split(str));
-// }
+
 int main(void)
 {
-    char str[] = "  lkaka  \t sjsj\nsjsj.  ";
+    char str[] = "  lkaka aiia lua  ";
     char **split_result = ft_split(str);
     
     if(split_result)
